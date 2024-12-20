@@ -6,7 +6,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve("src", "main.jsx"),
-      name: "react-lib-demo",
+      name: "Wowlib",
       fileName: (format) => `react-lib-demo.${format}.js`,
     },
     rollupOptions: {
